@@ -1,8 +1,5 @@
 from selenium import webdriver
-from selenium.webdriver.common.by import By
-from selenium.webdriver.support.ui import WebDriverWait
-from selenium.webdriver.support import expected_conditions as EC
-from selenium.common.exceptions import TimeoutException
+
 
 path_to_chromedriver = '/home/louise/Codes/hackweek2020/chromedriver'
 browser = webdriver.Chrome(executable_path = path_to_chromedriver)
